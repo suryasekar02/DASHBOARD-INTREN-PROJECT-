@@ -1,0 +1,735 @@
+/* List items page */
+.item-image {
+  width: 100px;
+}
+
+/* manupulation */
+.mp-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.mp-item .mp-box {
+  margin-right: 10px;
+  margin-top: 0;
+}
+
+.price-box {
+  margin: 5px;
+  margin-top: 0;
+}
+
+.price-box input {
+  margin-right: 5px;
+  margin-top: 0;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+.price-input {
+  font-size: 16px;
+}
+
+/* add modal window */
+.commodity_bottom_section {
+  margin-bottom: 30px;
+}
+
+/* Media query for Mobile add */
+@media (max-width: 767px) {
+  .control-label {
+    font-size: 12px;
+  }
+  .commodity_name {
+    margin-top: 12px;
+  }
+  .sku-label {
+    margin-top: 12px;
+  }
+  .purchase_price_margin {
+    margin-top: 12px;
+  }
+}
+
+/* vendor */
+/* Contracts.html */
+#example th {
+  width: 98px;
+  font-weight: normal;
+}
+
+/* NewVendor.html */
+.help-block {
+  margin-left: 9px;
+  color: rgb(255, 0, 0);
+}
+
+.margin1.form-group label {
+  margin-bottom: 0;
+  margin-top: 15px;
+}
+.margin1.form-group input {
+  margin-top: 5px;
+}
+.customer-profile-group-heading {
+  margin-left: 3rem;
+}
+.tab_container {
+  margin-bottom: 30px;
+}
+/* .purchasegrp {
+  margin-top: 15px;
+  margin-left: 0;
+  margin-bottom: 5px;
+} */
+
+.website_input_box {
+  padding-bottom: 15px;
+}
+.bank_detail_lable {
+  margin-bottom: 10px;
+  margin-top: 9px;
+}
+.address_text_box {
+  height: 100px;
+  color: black;
+  margin-top: -2px;
+  margin-bottom: 10px;
+}
+.right_section_vendor {
+  margin-top: 14px;
+}
+.billing_shipping_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.billing_address_text {
+  height: 100px;
+  color: black;
+}
+.bottom-container {
+  position: fixed-bottom;
+}
+
+@media (max-width: 767px) {
+  .Shipping_section {
+    padding-top: 20px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    padding-bottom: 0;
+  }
+  .side_heading {
+    padding-top: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 0;
+  }
+}
+
+/* purchase_vendor.html */
+
+.new-class-1 {
+  width: 0px;
+}
+.new-class-2 {
+  width: 98px;
+  font-weight: normal;
+}
+.new-class-3 {
+  width: 100px;
+  font-weight: normal;
+}
+.new-class-4 {
+  width: 97px;
+  font-weight: normal;
+}
+.new-class-5 {
+  width: 85px;
+  font-weight: normal;
+}
+.new-class-6 {
+  width: 85px;
+  font-weight: normal;
+}
+.new-class-7 {
+  width: 100px;
+  font-weight: normal;
+}
+.new-class-8 {
+  width: 103px;
+  font-weight: normal;
+}
+.new-class-9 {
+  width: 103px;
+  font-weight: normal;
+}
+.table_contain {
+  width: 100%;
+}
+
+/* importVendor.html */
+.tblstyles {
+  margin: 3px;
+  padding-bottom: 4px;
+}
+.jobimportbtn {
+  margin-left: 10px;
+}
+.table_row_long {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+.inside_table {
+  overflow-x: auto;
+}
+.custom_margin {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  margin-left: 0.25rem;
+}
+
+/* order section */
+/* order_return.html  */
+.date_aline {
+  margin-top: 16px;
+}
+.th-newClass-1 {
+  width: 0px;
+}
+
+.th-newClass-2 {
+  width: 0px;
+  font-weight: normal;
+}
+
+.th-newClass-3 {
+  width: 100px;
+  font-weight: normal;
+}
+
+.th-newClass-4 {
+  width: 100px;
+  font-weight: normal;
+}
+
+.th-newClass-5 {
+  width: 97px;
+  font-weight: normal;
+}
+
+.th-newClass-6 {
+  width: 85px;
+  font-weight: normal;
+}
+
+.th-newClass-7 {
+  width: 103px;
+  font-weight: normal;
+}
+
+.th-newClass-8 {
+  width: 103px;
+  font-weight: normal;
+}
+
+.th-newClass-9 {
+  width: 103px;
+  font-weight: normal;
+}
+
+/* newpurchasereq.html */
+.row1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.addnewreq {
+  margin-top: 4rem;
+}
+.margin_top1 {
+  margin-top: 2rem;
+}
+.label_add_new {
+  font-weight: bold;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+}
+/* edit.html */
+.container_2 {
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+  background-color: #fff;
+  margin-top: 5rem;
+}
+.table_data_container {
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  width: 100%;
+}
+.total_payment {
+  font-weight: normal;
+}
+.button_check {
+  font-size: 12px;
+  background-color: #28b8da;
+  color: #fff;
+}
+.container-3 {
+  margin-top: 5rem;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+}
+.inside-1 {
+  margin-top: 3rem;
+}
+.return_policy_para {
+  margin-top: 5rem;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* Invoice */
+/* add_purchase_invoive.html */
+.mx-4-alt {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.custom-box-1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 2px;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  border-radius: 0.25rem;
+}
+.row-box {
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.25rem;
+  padding-left: 0.25rem;
+}
+.content-margin {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.padding-bottom-1 {
+  padding-bottom: 1px;
+}
+.padding-bottom-2 {
+  padding-bottom: 4px;
+}
+.margin-x-alt {
+  margin-bottom: 3px;
+}
+.padding-bottom-4 {
+  padding-bottom: 2rem;
+  padding-top: 7px;
+}
+.custom-margin-padding-2 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.top-head-table {
+  background: #415164;
+  color: #fff;
+}
+.unit-style {
+  margin-top: 0.2rem;
+  color: #8babcc;
+  text-align: right;
+}
+.subtotal_style {
+  width: 25px;
+  text-align: right;
+}
+.tax {
+  width: 25px;
+  text-align: right;
+}
+.text-center {
+  text-align: right;
+}
+.discond-style {
+  font-weight: bold;
+  text-align: center;
+}
+.shipping_fee {
+  width: 20px;
+  text-align: right;
+  font-weight: bold;
+}
+.content-margin-4 {
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+.row-box-margin-2 {
+  margin: 1rem;
+}
+.margin-title-gap {
+  margin-bottom: 1rem;
+}
+
+/* addcustomfield.html */
+.tblcontainer-1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.padding-2 {
+  padding: 2rem;
+}
+.padding-bottom-2 {
+  padding-bottom: 0.5rem;
+}
+.padding-0 {
+  padding: 0;
+}
+.margin-top-2 {
+  margin-top: 2rem;
+}
+.margin-top-2 {
+  margin-top: 1rem;
+}
+
+/* editcustomfield.html */
+.edithdir-style {
+  margin-top: 0;
+  padding-left: 0.25rem;
+  padding: 0;
+}
+.margin-top-6 {
+  margin-top: 1rem;
+}
+
+/* view_payment-invoice.html */
+.boxx-3 {
+  padding-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1.5rem;
+}
+.margin-all-2 {
+  margin: 1rem;
+}
+.padding-all-2 {
+  padding: 1.5rem;
+  border-radius: 0px;
+}
+.margin-x-y {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.margin-top-font-weight {
+  font-weight: normal;
+  margin-top: 1.5rem;
+}
+.margin-box {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.boxx-1 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.boxx-2 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.container-4 {
+  padding-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1.5rem;
+}
+.margin-top-5 {
+  margin-top: 2rem;
+}
+.padding-bottom-6 {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.margin-padding-3 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+.padding-left-7 {
+  font-weight: bold;
+  padding-left: 2.5rem;
+}
+.margin-all-23 {
+  margin: 1rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+/* Purchase_invoices.html */
+/* add_purchase_request.html */
+/* margin left */
+.margin_top_mt {
+  margin-top: 13px;
+}
+.purchase_request_style {
+  width: 100px;
+  font-weight: normal;
+}
+.Purchase_request_name_style {
+  width: 97px;
+  font-weight: normal;
+}
+.requeste_style {
+  width: 85px;
+  font-weight: normal;
+}
+
+.department_styles {
+  width: 85px;
+  font-weight: normal;
+}
+.request_date_style {
+  width: 100px;
+  font-weight: normal;
+}
+.status_style {
+  width: 103px;
+  font-weight: normal;
+}
+.btn_share_12 {
+  background-color: rgba(40, 184, 218, 0.93);
+  border: none;
+}
+/* margin all */
+.margin_all_0 {
+  margin: 0rem;
+}
+.margin_all_1 {
+  margin: 1rem;
+}
+.margin_all_05 {
+  margin: 0.5rem;
+}
+.margin_all_2 {
+  margin: 2rem;
+}
+.margin_all_3 {
+  margin: 3rem;
+}
+.margin_all_4 {
+  margin: 4rem;
+}
+
+/* padding all */
+.padding_all_0 {
+  padding: 0rem;
+}
+.padding_all_1 {
+  padding: 1rem;
+}
+.padding_all_2 {
+  padding: 2rem;
+}
+.padding_all_3 {
+  padding: 3rem;
+}
+.padding_all_4 {
+  padding: 4rem;
+}
+
+/* margin left */
+.margin_left_ml0 {
+  margin-left: 0rem;
+}
+.margin_left_ml1 {
+  margin-left: 1rem;
+}
+.margin_left_ml2 {
+  margin-left: 2rem;
+}
+.margin_left_ml3 {
+  margin-left: 3rem;
+}
+.margin_left_ml4 {
+  margin-left: 4rem;
+}
+
+/* margin right */
+.margin_right_mr0 {
+  margin-right: 0rem;
+}
+.margin_right_mr1 {
+  margin-right: 1rem;
+}
+.margin_right_mr2 {
+  margin-right: 2rem;
+}
+.margin_right_mr3 {
+  margin-right: 3rem;
+}
+.margin_right_mr4 {
+  margin-right: 4rem;
+}
+
+/* margin top */
+.margin_top_mt0 {
+  margin-top: 0rem;
+}
+.margin_top_mt05 {
+  margin-top: 0.2rem;
+}
+.margin_top_mt1 {
+  margin-top: 1rem;
+}
+.margin_top_mt2 {
+  margin-top: 2rem;
+}
+.margin_top_mt3 {
+  margin-top: 3rem;
+}
+.margin_top_mt4 {
+  margin-top: 4rem;
+}
+
+/* margin bottom */
+.margin_bottom_mb0 {
+  margin-bottom: 0rem;
+}
+.margin_bottom_mb1 {
+  margin-bottom: 1rem;
+}
+.margin_bottom_mb05 {
+  margin-bottom: 0.5rem;
+}
+.margin_bottom_mb2 {
+  margin-bottom: 2rem;
+}
+.margin_bottom_mb3 {
+  margin-bottom: 3rem;
+}
+.margin_bottom_mb4 {
+  margin-bottom: 4rem;
+}
+
+/* padding top */
+.padding_top_pt0 {
+  padding-top: 0rem;
+}
+.padding_top_pt1 {
+  padding-top: 1rem;
+}
+.padding_top_pt2 {
+  padding-top: 2rem;
+}
+.padding_top_pt3 {
+  padding-top: 3rem;
+}
+.padding_top_pt4 {
+  padding-top: 4rem;
+}
+/* padding bottom */
+.padding_bottom_pb0 {
+  padding-bottom: 0rem;
+}
+.padding_bottom_pb1 {
+  padding-bottom: 1rem;
+}
+.padding_bottom_pb2 {
+  padding-bottom: 2rem;
+}
+.padding_bottom_pb3 {
+  padding-bottom: 3rem;
+}
+.padding_bottom_pb4 {
+  padding-bottom: 4rem;
+}
+/* padding left */
+.padding_left_pl0 {
+  margin-left: 0rem;
+}
+.padding_left_pl1 {
+  margin-left: 1rem;
+}
+.padding_left_pl2 {
+  margin-left: 2rem;
+}
+.padding_left_pl3 {
+  margin-left: 3rem;
+}
+.padding_left_pl4 {
+  margin-left: 4rem;
+}
+/* padding right*/
+.padding_right_pr0 {
+  padding-right: 0rem;
+}
+.padding_right_pr1 {
+  padding-right: 1rem;
+}
+.padding_right_pr2 {
+  padding-right: 2rem;
+}
+.padding_right_pr3 {
+  padding-right: 3rem;
+}
+.padding_right_pr4 {
+  padding-right: 4rem;
+}
+.sub_total {
+  width: 25px;
+  text-align: right;
+  font-weight: normal;
+}
+.myr_head {
+  height: 36px;
+  margin-top: 5px;
+}
+.total_head {
+  width: 25px;
+  text-align: right;
+}
+.tablehead {
+  background: #415164;
+  color: #fff;
+}
+.btn_span_status {
+  color: #ffa500;
+  border-color: #ffa500;
+}
+.flex_data {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 2px;
+}
+.margin-23 {
+  margin: 5px 2px;
+}
+
+.display_style {
+  display: block;
+}
+
+.display_style_01 {
+  float: right;
+  margin-top: -35px;
+}
+.text_style_flot {
+  text-align: right;
+}
+.table-color {
+  background: #f9f9f9;
+}
+.float_style {
+  float: right;
+}
+.phone-div {
+  margin-bottom: 20px;
+}

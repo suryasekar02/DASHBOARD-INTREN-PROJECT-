@@ -1,0 +1,97 @@
+/* table td:nth-child(1),
+table th:nth-child(1),
+table td:nth-child(2),
+table th:nth-child(2),
+table td:nth-child(4),
+table th:nth-child(4),
+table td:nth-child(7),
+table th:nth-child(7),
+table td:nth-child(8),
+table th:nth-child(8),
+table td:nth-child(9),
+table th:nth-child(9) {
+  display: none;
+} */
+
+table.dataTable.hover > tbody > tr:hover > *,
+table.dataTable.display > tbody > tr:hover > * {
+  background: #c8c7c7 !important;
+}
+table.dataTable.hover > tbody > tr:hover > *,
+table.dataTable.display > tbody > tr:hover > * {
+  background: none !important;
+}
+table.borderless td,
+table.borderless th {
+  border: none !important;
+}
+th {
+  font-weight: bold;
+}
+/* .rw-class,
+.sp-class1,
+.sp-class2,
+.sp-class3 {
+  cursor: pointer;
+}
+.rw-class {
+  text-transform: none;
+}
+.rw-class,
+.sp-class1,
+.sp-class2 {
+  color: #1b82b3;
+} */
+.work-center-name {
+  text-transform: none;
+  color: #323a45;
+}
+/* .sp-class3 {
+  color: #fc2d42 !important;
+  cursor: pointer !important;
+} */
+/* .sp-class3:hover {
+  color: #782d2d;
+} */
+/* .rw-class:hover,
+.sp-class1:hover,
+.sp-class2:hover {
+  color: #323a45;
+} */
+.working-hours {
+  color: #323a45;
+  font-style: bold;
+}
+.hide {
+  display: none;
+}
+.pdtsheader{
+  color: red;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.colorline{
+  color: red;
+}
+.tblcontainer{
+  border: none;
+}
+.manufactbtn{
+  
+    border: none;
+  background-color: var(--newtaskbtn-color);
+  border-radius: 4px;
+  margin-left: 4px;
+  margin-bottom: 8px;
+  padding: 4px 20px 4px;
+  font-size: 16px;
+  font-family: var(--primary-font);
+  color:whitesmoke;
+}
+@media (max-width: 768px){
+ .manufactbtn{
+  
+    width: 99%; 
+    margin-left: 6px;
+}   
+}

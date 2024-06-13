@@ -1,0 +1,134 @@
+<form id="addlead4" action="">
+    <div class="row">
+     <div class="col-md-4">
+        <div class="row attitmlt">
+            <div class="col-md-4">
+                <div class=" excfnthr">
+                    <label for="" class="excfllbl"><span class="aster">* </span>Choose CSV File</label>
+                    <div class="input-group d-flex flex-nowrap">
+                        <input type="file" class="chooseexcfle">
+                    </div>
+            </div>
+        </div>
+     </div>
+   </div>
+ </form>
+
+
+
+<!--script file-->
+
+  <script>
+    $(document).ready(function () {
+        $('#addlead2').formValidation({
+
+            framework: 'bootstrap',
+            fields: {
+                // city: {
+                //     validators: {
+                //         notEmpty: {
+                //             message: 'This field is required'
+                //         }
+                //     }
+                // },
+                // state: {
+                //     validators: {
+                //         notEmpty: {
+                //             message: 'This field is required'
+                //         }
+                //     }
+                // },
+                software: {
+                    validators: {
+                        notEmpty: {
+                            message: 'Enter Software Name'
+                        }
+                    }
+                },
+                warehouse_code: {
+                    validators: {
+                        notEmpty: {
+                            message: 'This field is required'
+                        }
+                    }
+                },
+                order: {
+                    validators: {
+                        notEmpty: {
+                            message: 'This field is required'
+                        }
+                    }
+                },
+            }
+        })
+            .on('success.form.fv', function (e) {
+                e.preventDefault();
+
+                var form = document.querySelector('#addlead2');
+                var dataForm = new FormData(form);
+
+                $.ajax({
+                    type: 'POST',
+                    url: '<?= base_url() ?>/home/saveWarehouse',
+                    data: dataForm,
+                    cache: false,
+                    contentType: false,
+                    processData: false,
+                    dataType: 'json',
+                    success: function (result) {
+                        console.log(result);
+                        toastr.success('Data saved successfully', 'Success');
+                        $('#modal_md').modal('hide');
+                        setTimeout(function () {
+                            location.reload();
+                        }, 800);
+                    },
+                    error: function (error) {
+                        console.error(error);
+                        toastr.error('An error occurred', 'Error');
+                    }
+                });
+            });
+    });
+</script>
+
+<!--   show date picker  -->
+<script>
+    document.getElementById('date').addEventListener('click', () =>
+    {
+        if ('showPicker' in HTMLInputElement.prototype)
+        {
+            document.getElementById('date').showPicker();
+        }
+    })
+</script>
+
+<script>
+    $(".button_su_inner").mouseenter(function (e)
+    {
+        var parentOffset = $(this).offset();
+
+        var relX = e.pageX - parentOffset.left;
+        var relY = e.pageY - parentOffset.top;
+        $(this).prev(".su_button_circle").css({ "left": relX, "top": relY });
+        $(this).prev(".su_button_circle").removeClass("desplode-circle");
+        $(this).prev(".su_button_circle").addClass("explode-circle");
+
+    });
+
+    $(".button_su_inner").mouseleave(function (e)
+    {
+
+        var parentOffset = $(this).offset();
+
+        var relX = e.pageX - parentOffset.left;
+        var relY = e.pageY - parentOffset.top;
+        $(this).prev(".su_button_circle").css({ "left": relX, "top": relY });
+        $(this).prev(".su_button_circle").removeClass("explode-circle");
+        $(this).prev(".su_button_circle").addClass("desplode-circle");
+
+    });
+
+
+
+</script>

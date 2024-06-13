@@ -1,0 +1,57 @@
+.Quest{
+    margin:0px;
+    font-size:20px;
+}
+.headpop{
+    background: #fbfbfb;
+    text-transform: none;
+}
+.titlepop{
+    font-weight: 400;
+    font-size: 18px;
+}
+.rohright{
+    position: absolute;
+    width: 30%;
+    float: right !important;
+    bottom: 6px;
+    left: 167px;
+    border-radius: 10px;
+}
+.taskfooter .closetext{
+    background-color: #f1f5f7;
+    color:#415164;
+}
+.tap{
+    border-bottom:0px;
+}
+.bot{
+    display: block;
+}
+.savetext{
+    float:right;
+}
+@media (max-width: 768px){
+ .mobupbtn{
+    width: 110%;
+    margin-left: -25px;
+}   
+}
+.btn-green:hover{
+    background-color:#84c529;
+    color:white;
+    outline: none;
+}
+.btn-light-bg {
+    background-color: #f1f5f7;
+    border: 1px solid #e6e9eb;
+    color: #333;
+}
+
+.btn-light-bg:hover {
+    background-color: #d4d4d4;
+    color:#333;
+}
+.btn-light-bg:active{
+    outline:none !important;
+}

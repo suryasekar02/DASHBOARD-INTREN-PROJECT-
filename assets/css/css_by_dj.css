@@ -1,0 +1,33 @@
+.square-label{
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 400;
+  padding: .3em .7em .3em;
+  /* line-height: 1; */
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em;
+  color: #989898;
+  border: 1px solid #989898;
+}
+
+.in-progress-label{
+  color: #03a9f4;
+  border: 1px solid #03a9f4;
+}
+
+.on-hold-label{
+  color: #ff6f00;
+  border: 1px solid #ff6f00;
+}
+
+.cancelled-label{
+  color: #fc2d42;
+  border: 1px solid #fc2d42;
+}
+
+.finished-label{
+  color: #84c529;
+  border: 1px solid #84c529;
+}

@@ -1,0 +1,50 @@
+.approvebtn{
+    border: none;
+    background-color: var(--newtaskbtn-color);
+    border-radius: 4px;
+    margin-left: 25px;
+    margin-top: 15px;
+    padding: 4px 20px 4px;
+    font-size: 16px;
+    font-family: var(--primary-font);
+    color: whitesmoke
+}
+@media (max-width: 768px){
+.approvebtn {
+    margin-left: 10px;
+    }
+}
+
+
+
+.approveplus {
+    border: none;
+    background-color: var(--taskoverviewbtn-color);
+    border-radius: 4px;
+    margin-right: 30px;
+    margin-top: 15px;
+    padding: 4px 20px 4px;
+    font-size: 16px;
+    font-family: var(--primary-font);
+    float: none !important;
+    color: whitesmoke;
+}
+@media (max-width: 768px){
+.approveplus {
+        width: 98%;
+        margin-left: 5px;
+    }
+}
+
+.setbtn{
+    background-color: #1BBDD6;
+    font-family: var(--primary-font);
+    border-radius: 4px;
+    border: none;
+    padding: 5px 8px;
+    color: whitesmoke;
+    font-size: 14px;
+}
+.setbtn:hover{
+    background-color: #01ADCC;
+}

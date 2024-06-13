@@ -1,0 +1,24 @@
+.text-end {
+    size: 1000px
+    color: red;
+}
+.text-has-action{
+    text-decoration:underline;
+    text-decoration-style: dotted;
+}
+.notification{
+  border-radius: 5px;
+  border: 1px solid #eee;
+  padding: 20px;
+
+}
+.unread{
+    background-color: #dfe7f2;
+}
+.inner-link{
+    color:black;
+}
+a:link {
+            text-decoration: none;
+        }
+        

@@ -1,0 +1,319 @@
+  /* Global Styles */
+  
+
+    /* Sidebar Styles */
+    .sidebar {
+        background-color: #333B54;
+        height: 100vh;
+        /* position: relative; */
+        position: fixed;
+        width: 47px !important;
+        transition: 500ms !important;
+        white-space: nowrap !important;
+        overflow-x: hidden; /* Added overflow-x property */
+        overflow-y: scroll !important; /* Added overflow-y property */
+        top:49px;
+        z-index: 1000;
+    }
+
+    .sidebar li {
+        padding: 15px 10px;
+        font-size: 14px;
+        color: white;
+        cursor: pointer;
+    }
+
+    .sidebar li:hover {
+        background-color: rgb(48, 66, 103);
+    }
+
+    .sidebar:hover,
+    .sidebar.active {
+        /* width: 250px !important; */
+        /* width: 276px !important; */
+        width: 283px !important;
+        transition: 500ms;
+
+    }
+
+    /* .fa {
+        font-size: 20px;
+        color: white;
+        position: relative;
+        justify-self: center;
+    } */
+
+    .plusbar,
+    .minusbar {
+        margin-left: auto;
+        padding: 0px 8px;   
+    }
+
+    .minusbar {
+        display: none;
+    }
+
+    .sidebar li div {
+        display: flex;
+        align-items: baseline;
+    }
+    .sidebar li span{
+        margin-right: 25px;
+        display: block;
+        float: left;
+        width: 18px;
+        font-size: 16px;
+    }
+    /* Custom scrollbar styles */
+    ::-webkit-scrollbar {
+        width: 0;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: transparent;
+    }
+    .submenubar li:nth-child(1) {
+
+  padding-top:19px!important;
+}
+    .submenubar {
+      
+        max-height: 0;
+        overflow: hidden;
+        font-size: 8px !important;
+        float: left;
+        white-space: normal;
+        padding-left: 36px;
+        /* margin-top: 10px; */
+        opacity: 0;
+        transform-origin: top; /* Set the transform origin to the top */
+        transition: max-height 600ms cubic-bezier(0.4, 0, 0.2, 1),
+                    opacity 600ms ease-in-out,
+                    transform 600ms ease-in-out; /* Combine transitions for max-height, opacity, and transform */
+    }
+
+    .submenubar.open {
+        max-height: 1000px;
+        opacity: 1;
+        transform: scaleY(1); /* Apply a scaleY transform to open the submenu smoothly */
+    }
+
+    .submenubar li {
+        padding: 10px !important;
+        list-style: none;
+        white-space: nowrap !important;
+        cursor: pointer;
+        font-size: 12px !important;
+    }
+
+    .submenubar li:hover {
+        color: rgb(211, 211, 211);
+    }
+    
+    /* Plus Icon */
+    .nav-item .plusbar:hover + .submenubar{
+        display: block;
+    }
+
+    /* Media Query */
+    @media screen and (max-width: 768px) {
+        .sidebar {
+            width: 0px !important;
+        }
+    }
+    /* navbar */
+    .navbar{
+        display: flex ;
+        flex-direction: row;
+        gap: 17px;
+        float: right;
+        margin-right:20px;
+        align-items: baseline;
+    }
+    .header1{ 
+        background-color:#333B54;
+        height: 51px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+   
+        z-index: 1000;
+    }
+    .profile-dropdown{
+height: 23px; margin-bottom: 9px;
+background-color: transparent;
+border: none;
+padding: 0 !important;
+    }
+    .profile-dropdown:hover {
+      background-color: transparent; /* or any other background color you want */
+    }
+body > div.header > div > div > ul{
+    top: 40px !important;
+    right: -65% !important;
+}
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active{
+    background-color: transparent !important;
+    border-color:  transparent !important;
+}
+.dropdown-menu.show {
+    border-radius: 0 !important;
+}
+/*  */
+.dropbtn {
+  border: none;
+  cursor: pointer;
+}
+#myInput {
+  box-sizing: border-box;
+  background-image: url('searchicon.png');
+  background-position: 14px 12px;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  padding: 14px 20px 12px 45px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+
+#myInput:focus {outline: 3px solid #ddd;}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  right: -10px;
+  top: 40px;
+  min-width: 230px;
+  overflow: auto;
+  border: 1px solid #ddd;
+  z-index: 1;
+  font-size: 15px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+/* .show {display: block;} */
+
+
+
+/* input */
+.input-elevated{
+  font-size: 14px;
+    border: none;
+  outline: none; 
+  line-height: 1.5;
+  border: none;
+  background: #fff;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 20 20'><path fill='%23838D99' d='M13.22 14.63a8 8 0 1 1 1.41-1.41l4.29 4.29a1 1 0 1 1-1.41 1.41l-4.29-4.29zm-.66-2.07a6 6 0 1 0-8.49-8.49 6 6 0 0 0 8.49 8.49z'></path></svg>");
+  background-repeat: no-repeat;
+  background-position: 8px center; 
+  background-size: 16px 16px; 
+  box-shadow: none;
+  border-radius: 100px;
+  max-width: 300px; 
+  padding: 4px 4px 4px 32px; 
+}
+.search-box {
+  font-size: 14px;
+    border: none;
+  outline: none; 
+  height: 40px;
+  border: none;
+  background: #e8eeff;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 20 20'><path fill='%23838D99' d='M13.22 14.63a8 8 0 1 1 1.41-1.41l4.29 4.29a1 1 0 1 1-1.41 1.41l-4.29-4.29zm-.66-2.07a6 6 0 1 0-8.49-8.49 6 6 0 0 0 8.49 8.49z'></path></svg>");
+  background-repeat: no-repeat;
+  background-position: 8px center; 
+  background-size: 16px 16px; 
+  box-shadow: none;
+  padding: 4px 4px 4px 32px; 
+}
+.input-elevated::placeholder{
+  color: #838D99;
+}
+.dropdown-content .fa{
+color: black;
+margin-right: 20px;
+}
+
+ @media screen and (max-width: 768px) {
+    .fa-search{
+        display: block !important;
+        cursor: pointer;
+    }
+    .input-elevated{
+        display: none;
+    }
+}
+
+.search-box{
+    display: none;
+}
+/* Initially hide the search box for screens larger than 768px */
+@media (min-width: 769px) {
+  .search-box {
+    display: none !important;
+  }}
+
+.usersidebar
+{
+    height: 23px; margin-bottom: 5px; cursor: pointer;
+}
+.sidebarmenu
+{
+    margin: 12px 12px; cursor: pointer;font-size: 23px;
+    color: #fff;
+}
+.navbar .bi-bell,
+.navbar .bi-nut{
+    font-size: 23px;
+    color: #fff;
+}
+.navbar .fa-search{
+    font-size: 23px;
+    margin-bottom: 2px;
+}
+.main-content {
+    transition: margin-left 0.3s; /* Add transition for smooth animation */
+    margin-left: 50px; /* Default margin value */
+    padding: 60px 10px 20px 10px; /* Add padding to main content */
+    overflow-y: auto;
+    
+}
+
+/* Media query for screens up to 769px */
+@media (max-width: 769px) {
+    .main-content {
+        margin-left: 0px; /* Adjust margin for smaller screens */
+        padding: 60px 0px 20px 0px;
+    }
+}
+/* Add styles for the main content area */
+.sidebar:hover ~ .main-content {
+    margin-left: 286px;
+  }
+  
+  /* Add styles for active main content when sidebar is toggled */
+  .main-content.active {
+      margin-left: 286px; /* Adjust this value based on your sidebar width */
+  }
+  @media (max-width: 1199px) {
+    .main-content.active {
+        margin-left: 0px; /* Adjust margin for smaller screens */
+    }
+    .sidebar:hover ~ .main-content {
+        margin-left: 0px;
+      }
+}

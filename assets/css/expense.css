@@ -1,0 +1,559 @@
+/* Style the tab content */
+
+.quesicon {
+  font-size: 11px;
+  margin-right: 3px;
+}
+
+.explbl {
+  margin-bottom: 3px;
+  margin-top: 7px;
+}
+
+.expreflbl {
+  margin-left: 1px;
+  margin-top: 10px;
+}
+
+.expicon {
+  font-size: 13px;
+
+}
+
+.expchart {
+  background-color: #e1e5e8;
+  border-radius: 4px;
+  padding: 9px 10px;
+}
+
+@media (max-width: 768px) {
+  .expchart {
+    margin-left: 4px !important;
+    margin-right: 8px !important;
+    margin-top: 5px !important;
+    width: 99%;
+  }
+}
+
+.expline {
+  border: 1px solid #ccc;
+  margin-top: 10px;
+  margin-bottom: 3px !important;
+}
+
+.exphdr {
+  margin-top: 15px;
+}
+
+.tabpad {
+  padding: 5px;
+}
+
+.exptabshdr {
+  margin-top: 17px !important;
+}
+
+.tab2task {
+  margin-top: -12px !important;
+}
+
+.nfs {
+  font-size: 20px;
+  font-weight: 400;
+  color: #777777;
+}
+
+.yeardorpdn .dropdown {
+  display: inline-flex;
+  margin-right: 10px;
+  /* add some space between the dropdowns */
+}
+
+.purchasegrp {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+/* accordian */
+.accordion-item {
+  border: none;
+}
+
+.accordion-item:not(:first-child) .accordion-collapse {
+  border-top: 1px solid #dee2e6;
+}
+
+.dropdown-menu .sublist {
+  display: none;
+
+}
+
+.finished:hover .sublist {
+  display: block;
+
+  border: 1px solid black;
+  width: 100px;
+  margin-left: 100px;
+  overflow-y: scroll;
+}
+
+.dropdown-menu .sublist {
+  display: none;
+  height: 150px;
+  /* Set a specific height for the sublist container */
+  overflow-y: scroll;
+  /* Enable vertical scroll */
+}
+
+.dropdown-menu .finished:hover .sublist {
+  display: block;
+}
+
+/* end */
+.mani-label {
+  margin: 12px 5px 5px;
+}
+
+.note-text {
+  margin-top: 5px;
+  resize: both;
+}
+
+.qstn-mark {
+  display: flex;
+  align-items: center;
+}
+
+.record-button {
+  margin-left: 0px !important;
+}
+
+.accordian-container {
+  padding: 0px !important;
+}
+
+.expense-top {
+  padding: 0px 21px !important;
+}
+
+.select1 {
+  padding-left: 6px;
+}
+
+@media screen and (max-width: 991px) {
+  .accordian-items {
+    margin: 3px;
+  }
+}
+
+.new-task-button {
+  margin-left: 0px !important;
+}
+
+.q-mark {
+  padding-top: 9px !important;
+  color: blue !important;
+  height: 20px;
+}
+
+.upload-section {
+  margin-bottom: 10px;
+}
+
+.section-box {
+  padding-bottom: 24px !important;
+  border-radius: 4px;
+}
+
+.form-select {
+  background-image: url('https://res.cloudinary.com/djzsbpran/image/upload/v1687518108/21679641_c8jqwr.jpg');
+  background-size: 14px 10px;
+}
+
+.remainder-table {
+  margin: 0px 10px;
+}
+
+.expense-tab-item {
+  padding-left: 0px !important;
+}
+
+.chseexc {
+  margin-left: 0px;
+  margin-bottom: 8px !important;
+  margin-top: 0px;
+  margin-right: 0px;
+  width: 100%;
+}
+
+.expbody {
+  background-color: #fff;
+  padding: 0px 10px 10px;
+  border-radius: 4px;
+}
+
+.expbodysec {
+  background-color: #fff;
+  padding: 0px 10px 10px;
+  border-radius: 4px;
+}
+
+.dd-toggle {
+  color: #28b8da;
+  background-color: white;
+  border-color: #28b8da;
+}
+
+.dd-toggle.await {
+  color: #84c529;
+  background-color: white;
+  border-color: #84c529;
+}
+
+.dd-toggle.testing {
+  color: black;
+  background-color: white;
+  border-color: black;
+}
+
+.dd-toggle.notselected {
+  color: gray;
+  background-color: white;
+  border-color: gray;
+}
+
+.dd-toggle.complete {
+  color: rgb(39, 81, 39);
+  background-color: white;
+  border-color: rgb(39, 81, 39);
+}
+
+.status-button {
+  border-style: solid;
+  border-radius: 4px;
+  border-width: 1px;
+}
+
+.exptble {
+  padding-top: 25px !important;
+}
+
+.exprowbdy {
+  background-color: #fff;
+  margin: 10px 15px;
+  box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
+  margin: 14px 20px 0px;
+  padding: 4px 20px 18px;
+  border-radius: 4px;
+}
+
+.exptblerow {
+  --bs-gutter-y: 1rem;
+  margin: 0px 9px;
+
+}
+
+.exptblecol {
+  margin-top: 13px !important;
+  padding-right: 4px !important;
+}
+
+.file_in {
+  padding: 4px 12px !important;
+}
+
+.pad-left {
+  padding-left: 0px !important;
+}
+
+.tag-border {
+  border-left: 1px dashed #b3b3b3;
+  padding-left: 5px;
+}
+
+.reference-item {
+  margin-top: 0px;
+}
+
+.refer-head {
+  margin-top: 7px;
+  margin-bottom: 3px;
+}
+
+.range-toggle {
+  color: #28b8da;
+  background-color: white;
+  border-color: #28b8da;
+}
+
+.attach-files-text {
+  font-size: 14px;
+}
+
+.range-toggle.medium {
+  color: #84c529;
+  background-color: white;
+  border-color: #84c529;
+}
+
+.range-toggle.hard {
+  color: red;
+  background-color: white;
+  border-color: red;
+}
+
+.range-toggle.urgent {
+  color: gray;
+  background-color: white;
+  border-color: gray;
+}
+
+.sec-column {
+  padding-left: 0px !important;
+}
+
+.sec-column-body {
+  margin-right: 8px;
+  margin-top: 0px;
+}
+
+.acc-box {
+  margin-top: 15px;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.custom-scrollbar::-webkit-scrollbar-corner {
+  background: #f1f1f1;
+  border-radius: 6px;
+}
+
+.inv-btn {
+  padding-bottom: 5px !important;
+}
+
+.tb-links {
+  padding-bottom: 5px !important;
+}
+
+.actn-item {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.marvel {
+  border-radius: 4px !important;
+}
+
+.hrline {
+  border: 1px solid #919191;
+}
+
+.progress_height {
+  height: 20px;
+  background-color: #f9fafc;
+}
+
+.bar_color {
+  background-color: #28b8da !important;
+}
+
+.checklist_testarea {
+  resize: none;
+  overflow: hidden;
+  font-size: 14px;
+  border-radius: 3px;
+  padding: 0 5px 0 5px;
+  border: 0;
+  outline: 0;
+  width: 100%;
+}
+
+.close-button {
+  padding: 6px 10.7px 6px 10.555px;
+  ;
+  margin-top: 1px !important;
+}
+
+/*imageupload*/
+
+#drop-zone {
+  position: relative;
+  max-width: 450px;
+  min-height: 200px;
+  border: 2px dotted #02a9f4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+#drop-zone img {
+  object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
+  display: none;
+}
+
+.file-name {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+#myfile {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+.delete-button {
+  display: none;
+  margin: 10px;
+  border: none;
+  border-radius: 4px;
+}
+/* multiple imageupload*/
+
+.preview-container {
+  /* Updated to remove flexbox and display images in a vertical list */
+  margin-top: 40px;
+}
+
+.preview-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  /* Added margin between images */
+  padding: 10px;
+  background: #f0f0f0;
+}
+
+.preview-item i {
+  color: #00000094;
+}
+
+.preview-img {
+  width: 20px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.file-details {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  /* Added margin-right to create space between the delete button and the file content */
+  width: 100%;
+}
+
+/*.file-name {*/
+
+/*  font-size: 12px;*/
+/*  margin-right: 15px;*/
+/*  color: rgb(45, 45, 45);*/
+/*}*/
+
+.multipledelete-button {
+  margin-left: auto;
+  font-size: 15px;
+  color: red;
+  /* margin-top: 11px; */
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.delete-all-button {
+  display: none;
+  margin-top: 10px;
+  border: none;
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.main-container {
+  /* width: 443px; */
+  width: 100%;
+  margin: auto;
+  /* padding: 10px; */
+}
+
+.text-container {
+  display: flex;
+}
+
+.drpdwn-width {
+  width: 90px !important;
+}
+
+.action-title {
+  padding-left: 12px;
+}
+
+.optn {
+  padding-bottom: 5px;
+}
+
+.attch {
+  padding-right: 10px;
+}
+
+.invoicegrn {
+  color: #84c529;
+}
+
+.recexppr {
+  padding-right: 2px;
+}
+
+.able {
+
+  padding-left: 7px;
+}
+
+.expbdymt {
+  margin-top: 13px;
+}
+
+.expmanmt {
+  margin-top: -18px;
+}
+
+.dd-toggle {
+  color: #299CDB !important;
+  background-color: #DFF0FA !important;
+  border: none !important;
+  font-size: 0.75em !important;
+  padding: 0.25em 0.4em !important;
+}
+.addexp {
+  margin-left: 17px;
+}
+
+.addexpcolbody {
+  padding: 0px 17px;
+}

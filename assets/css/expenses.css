@@ -1,0 +1,535 @@
+
+.nwsec{
+    padding:7px 18px 7px 18px;
+    background-color: #e3e8ee;
+  }
+  
+  .sendiv{
+  
+  margin-top: 10px;
+  
+  }
+  .contrs{
+  background-color: #ffffff;
+  height: 425px;
+  padding: 5px;
+  border-radius: 4px;
+  
+  }
+  
+  
+  
+  /* Style the tab */
+  .tab {
+    overflow: hidden;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    float: left;
+  
+    transition: 0.3s;
+  }
+  
+  
+  /* pdfemilicins */
+  .pdfemilicins{
+    border: 1px solid #e3e8ee;
+    padding: 4px 13px;
+    margin-top: 10px;
+    border-radius: 4px;
+  }
+  
+  .moreicons{
+    padding: 6px 10px;
+    border: 1px solid #e3e8ee;
+    border-radius: 4px;
+  }
+  
+  
+  
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 7px 0px 5px 0px;
+  
+    border-top: none;
+  }
+  
+  
+  /* uplod file */
+  
+  .inpuupfile{
+    display: none;
+  
+  }
+  #inpulavle{
+    height: 125px;
+    width: 100%;
+    border-radius: 6px;
+    border: 1px dashed #999;
+    background-color: #fbfdff;;
+  }
+  #inpulavle .filetext{
+    position: relative;
+    top: 40%;
+    left: 32%;
+    color: #1ba0f8;
+  }
+  
+  
+  /* for buttun */
+  
+  @media (max-width: 768px) {
+    .predeAddbtn {
+  
+        width: 10%;
+        margin-left: 12px !important;
+    }
+  }
+  
+  @media (max-width: 512px) {
+    .predeAddbtn {
+        width: 28%;
+        margin-left: 8px !important;
+        float: none !important;
+  
+    }
+  }
+  
+  .predeAddbtn {
+  
+    border: none;
+    background-color: var(--newtaskbtn-color);
+    border-radius: 4px;
+    margin-left: 4px;
+    margin-top: 15px;
+    padding: 4px 20px 4px;
+    font-size: 16px;
+    font-family: var(--primary-font);
+    color: whitesmoke;
+  }
+  
+  .backbtns{
+    background-color: #f1f5f7;
+    border: 1px solid #e6e9eb;
+    color: black; border-radius: 4px;
+  }
+  
+  
+  /* Set the container width to 100% */
+  .contrs {
+    width: 100%;
+    }
+  
+    .tab {
+    overflow: auto;
+    white-space: nowrap; 
+    }
+    
+  
+    @media only screen and (max-width: 767px) {
+    .tab {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-color: white;
+    }
+    
+    .tab button {
+    flex: 0 0 auto;
+    width: auto;
+    margin-right: 10px;
+    }
+    .plusbtnn{
+      display: none;
+    }
+    .overflow-scrolling {
+      overflow-x: scroll;
+      
+    }
+    }
+  
+  /* for 3rd tab */
+  .overflow-scrolling{
+  width: 100%;
+  }
+  
+
+.inp{
+    width:246px;
+}
+
+/* uplod file */
+
+.inpuupfile{
+    display: none;
+  
+  }
+  #inpulavle{
+    height: 125px;
+    width: 100%;
+    border-radius: 6px;
+    border: 1px dashed #999;
+    background-color: #fbfdff;;
+  }
+  #inpulavle .filetext{
+    position: relative;
+    top: 40%;
+    left: 32%;
+    color: #1ba0f8;
+  }
+  
+  .plusbtncorne{
+    position: relative;
+    bottom: 55px;
+  }
+  .quesicon{
+    font-size: 11px;
+    margin-right: 3px;
+  }
+  .explbl{
+    margin-bottom: 3px;
+    margin-top: 7px;
+  }
+  .expdate {
+    
+    font-size: 16px;
+    font-family: var(--primary-font);
+    padding-top: 3px;
+    padding-bottom: 5px;
+  }
+  .expref{
+   padding-left: 15px !important;
+   padding-right: 13px !important;
+  }
+  .expreflbl{
+    margin-left: 1px;
+    margin-top: 10px;
+  }
+  .exprefinp {
+    width: 100%;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 3px;
+    margin-top: 3px;
+    margin-left: 0px;
+    border-color: #919191 !important;
+    box-shadow: none !important;
+    height: 34px !important;
+    border-radius: 4px;
+  }
+  .expamt{
+    margin-top: 0px !important;
+  }
+  .explblamt{
+    margin-top: 5px;
+  }
+  .recexp{
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 15px;
+  }
+  .expensetable{
+    float: left;
+    
+  }
+  .advopt{
+   float: right;
+  }
+
+  .penbtn{
+    background-color: #e1e5e8;
+    border-width: 0;
+    border-radius: 4px;
+    padding: 6px 10.5px;
+  }
+  .xbtn{
+    background-color: red;
+    border-radius: 4px;
+    border-width: 0;
+    padding: 6px 10.5px;
+    color: white;
+  }
+  .expicon{
+    font-size: 13px;
+
+  }
+  .expchart{
+    background-color: #e1e5e8;
+  border-radius: 4px;
+  padding: 9px 10px;
+  }
+  .invce{
+    background-color: #03a9f4;
+    color: #fff;
+    border-width: 0;
+    font-size: 14px !important;
+  }
+
+  .invce:hover{
+    background-color:#337ab7;
+    color: #fff;;
+  }
+
+  @media (max-width: 768px) {
+    .expchart {
+      margin-left: 4px !important;
+      margin-right: 8px !important;
+      margin-top: 5px !important;
+      width: 99%;
+    }
+  }
+  .expfilter{
+    background-color: #e1e5e8;
+  border-radius: 4px;
+  padding: 9px 10px;
+  }
+  @media (max-width: 768px) {
+    .expfilter {
+      margin-left: 4px !important;
+      margin-right: 8px !important;
+      margin-top: 12px !important;
+      width: 99%;
+    }
+  }
+  .expbtnlt{
+    margin-bottom: 12px;
+  }
+  .expbtnrt{
+    margin-top: 20px;
+
+  }
+  @media (max-width: 768px) {
+    .expbtnrt {
+      
+      margin-top: -9px !important;
+   
+    }
+  }
+  .expftrtab{
+    background-color: #e1e5e8;
+  border-radius: 4px;
+  border-width: 0 !important;
+  padding: 6px 12px;
+  float: right !important;
+  margin-top: 19px;
+
+  }
+  .expline{
+    border:1px solid #ccc;
+    margin-top: 10px;
+    margin-bottom: 3px !important;
+}
+.exphdr{
+  margin-top: 15px;
+}
+.expcol{
+  padding: 0px;
+  margin-left: 1px;
+  margin-right: 3px;
+}
+.exptablt{
+  margin: 0px 6px 0px 0px;
+}
+.tabpad{
+  padding: 5px;
+}
+.exptabshdr{
+  margin-top: 17px !important;
+}
+.tab2task{
+  margin-top: -12px !important;
+}
+
+.help-block {
+    color: red;
+}
+
+.selectdropdownplusbtn
+{
+  width: 38px;
+    height: 33px;
+    background-color: #fff;
+    padding: 0;
+   float: right;
+    border-left: groove;
+    border-radius: 1px;
+    margin-top: 2px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+@media (max-width: 500px) {
+  .plusbtncorne{
+    position: relative;
+    bottom: 49px;
+  }
+}
+
+.inptdropzne {
+  background-color: #fbfdff;
+  border-radius: 5px;
+  border: 1.8px dashed #c0ccda;
+  border-image: none;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 150px ;
+  cursor: pointer;
+}
+.drponme{
+  width: 100px;
+  position: relative;
+  top: 54px;
+  left: 150px;
+  color: #03a9f4;
+  cursor: pointer;
+}
+@media( max-width: 425px){
+  .drponme{
+    position: relative;
+    top: 54px;
+    left: 78px;
+  }
+}
+.line{
+  border:thin;
+  background-color: #919191 !important;
+}
+.nfs{
+  font-size: 20px;
+  font-weight: 400;
+  color: #777777;
+}
+.yeardorpdn .dropdown {
+  display: inline-flex;
+  margin-right: 10px; /* add some space between the dropdowns */
+}
+
+
+
+.accordion-item {
+    border: none;
+}
+
+.accordion-item:not(:first-child) .accordion-collapse {
+    border-top: 1px solid #dee2e6;
+}
+
+.dropdown-menu .sublist {
+  display: none;
+ 
+}
+
+.finished:hover .sublist {
+  display: block;
+
+  border: 1px solid black; 
+  width: 100px;
+  margin-left: 100px;
+  overflow-y: scroll;
+}
+
+.dropdown-menu .sublist {
+  display: none;
+  height: 150px; /* Set a specific height for the sublist container */
+  overflow-y: scroll; /* Enable vertical scroll */
+}
+
+.dropdown-menu .finished:hover .sublist {
+  display: block;
+}
+
+.left-dropdown-text{
+    text-align-last: left!important;
+}
+.Payment-btn{
+    background-color: #84C52D;
+    font-size: 12px;
+    margin-left:10px;
+    color:#fff;
+}
+.Payment-btn:hover{
+  background-color: #74b31b;;
+  font-size: 12px;
+  margin-left:10px;
+  color:#fff;
+}
+.unpaid-button{
+    padding:3px 15px!important;
+}
+.margin-end-none{
+    padding-right:10px!important;
+    padding-left:10px!important;
+}
+.panel-body{
+  background: #fff;
+  border: 1px solid #dce1ef;
+  border-radius: 4px;
+  padding: 20px;
+  position: relative;
+}
+select.selectpicker{
+display:block!important;
+}
+
+.unpaid-btn{
+  font-size: 12px;
+  padding:6px 18px;
+  box-shadow:none!important;
+}
+.unpaid-btn:hover{
+  background-color: transparent;
+  color:#fc2d42;
+}
+@media (min-width: 1200px){
+.col-lg-5ths {
+    width: 20%;
+    float: left;
+  }
+
+}
+
+@media (min-width: 992px){
+.col-md-5ths {
+    width: 20%;
+    float: left;
+}
+}
+
+.no-margin {
+  margin: 0!important;
+}
+.progress {
+  height: 20px!important;
+  margin-bottom: 20px;
+  overflow: hidden;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+}
+.progress-bar-danger {
+  background-color: #fc2d42;
+}
+.progress-bar-success {
+  background-color: #84c529;
+}
+.progress-bar-warning {
+  background-color: #ff6f00;
+}
+.progress-bar-default {
+  background-color: #727b86;
+}
+
+.pay-alert{
+  margin-left:6px;
+  margin-top:15px;
+}
+.sendbtm{
+  margin-left: 35px !important;
+}

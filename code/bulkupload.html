@@ -1,0 +1,602 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>License Management</title>
+
+    <link rel="shortcut icon" href="salesqueen logo.jpeg" type="image/x-icon">
+    <!--Bootstrap 5 CSS--->
+    <link rel="stylesheet" type="text/css" href="../../assets/Bootstrap5/css/bootstrap.css" />
+
+    <!--Bootstrap 5 JS--->
+    <script type="text/javascript" src="../../assets/Bootstrap5/js/bootstrap.bundle.min.js"></script>
+
+    <!--Bootstrap Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/de952d599f.js" crossorigin="anonymous"></script>
+
+    <!--datatables CSS--->
+    <link rel="stylesheet" type="text/css" href="../../assets/datatables/css/datatables.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../assets/datatables/css/jquery.dataTables.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../assets/datatables/css/buttons.dataTables.min.css" />
+
+    <!--Datatables js-->
+    <script type="text/javascript" src="../../assets/js/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="../../assets/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="./datatable/datatable.js"></script>
+    <script type="text/javascript" src="../../assets/js/dataTables.responsive.min.js"></script>
+
+    <!--Datatable dropdown----->
+    <script type="text/javascript" src="../../assets/js/datatables.pdfmake.min.js"></script>
+    <script type="text/javascript" src="../../assets/js/dataTables.buttons.min.js"></script>
+    <script type="text/javascript" src="../../assets/js/datatables.vfs_fonts.js"></script>
+    <script type="text/javascript" src="../../assets/js/datatables.jszip.min.js"></script>
+    <script type="text/javascript" src="../../assets/js/buttons.html5.min.js"></script>
+    <script type="text/javascript" src="../../assets/js/buttons.print.min.js"></script>
+
+    <!--Dropdown select-->
+    <link rel="stylesheet" href="../../assets/Bootstrap5/css/bootstrap-select.min.css" />
+    <script src="../../assets/Bootstrap5/js/bootstrap-select.min.js"></script>
+
+    <!--summernote_textarea-->
+    <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>
+
+    <!-- CSS -->
+    <!-- validation -->
+    <script src="https://Login.loyalwings.com/assets/js/formValidation.min.js"></script>
+    <script src="https://Login.loyalwings.com/assets/js/bootstrap_validation.min.js"></script>
+
+    <link rel="stylesheet" href="../../assets/css/theme.css" />
+
+
+    <!-- Select2 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css">
+
+
+
+
+    <!-- Select2 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+    <!-- MultidateTime picker -->
+    <link rel="stylesheet" href="../../assets/datatables/css/dataTables.dateTime.min.css" />
+    <script src="../../assets/js/dataTables.dateTime.min.js"></script>
+    <!-- <script src="../../assets/js/moment.min.js"></script> -->
+
+    <!-- Include Required Prerequisites -->
+    <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/jquery/1/jquery.min.js"></script> -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/bootstrap/3/css/bootstrap.css" /> -->
+
+    <!-- Include Date Range Picker -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.js"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.css" />
+
+    <link rel="stylesheet" href="hamburger.css">
+    <link rel="stylesheet" href="../../assets/css/style.css" />
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- download -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
+
+    <style>
+        .dataTables_info , .dataTables_filter ,.dataTables_length ,.dt-button ,.paginate_button{
+        display: none !important;
+      }
+      th{
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 5px !important;
+      }
+      input[type="checkbox"] {
+        accent-color: #405189;
+        padding: 5px;
+}
+table.dataTable thead>tr>th.sorting,table.dataTable thead>tr>th.sorting_asc,table.dataTable thead>tr>th.sorting_desc,table.dataTable thead>tr>th.sorting_asc_disabled,table.dataTable thead>tr>th.sorting_desc_disabled,table.dataTable thead>tr>td.sorting,table.dataTable thead>tr>td.sorting_asc,table.dataTable thead>tr>td.sorting_desc,table.dataTable thead>tr>td.sorting_asc_disabled,table.dataTable thead>tr>td.sorting_desc_disabled{
+    cursor: pointer;
+    position: relative;
+    padding-right:20px;
+}
+.note{
+    background-color:#fbf6c2;
+}
+    </style>
+
+
+</head>
+
+
+<body onload="addDate();">
+    <div class="container-fluid">
+        <div class="card">
+            <div class="card-body">
+            <div class="row justify-content-between">
+            <div class="col-md-6 mt-3">  
+            <button class="hrbtns itemgrnbtn m-0" id="downloadBtn"><i class="fa-solid fa-download"></i> DOWNLOAD A SAMPLE</button></td>
+            </div>
+            </div>  <br>  <br>        <hr class="fileline vendcarline linehr">
+            </div>
+            
+
+                
+        <!-- <div class="container-fluid">
+            <div class="card"> -->
+                <div class=" col-md-12 me-3" id="first_col">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-12"  id="first_col">
+                              <div class="demo-html mt-0">
+                                <table class="example display dataTable display responsive nowrap tblalign table borderless"
+                                       style="width: 100%" id="datatable" aria-describedby="example_info">
+                                <thead class="theadrow">
+                    <tr>
+                        <th><input type="checkbox" id="all_check" onchange="checkAll()"></th>
+                        <th><span class=" aster">* </span> Software name</th>
+                        <th>Product Key </th>
+                        <th><span class=" aster">* </span> Seats</th>
+                        <th>Licensed to email</th>
+                        <th>Licensed to name</th>
+                        <th>Reassignable</th>
+                        <th>Maintained</th>
+                        <th>Order number</th>
+                        <th>Purchase order number</th>
+                        <th>Purchase cost</th>
+                        <th>Purchase date (mm/dd/YYYY)</th>
+                        <th>Expiration date</th>
+                        <th>Termination date</th>
+                        <th>Purchase date</th>
+                        <th><span class=" aster">* </span> Category ID</th>
+                        <th><span class=" aster">* </span> Manufacturer ID</th>
+                        <th>Supplier ID</th>
+                        <th>Depreciation ID</th>
+                        <th>Notes</th>
+                    </tr>
+                                        </thead>
+                                <tbody>
+                              <tr class="row-hover">
+                        <td class="progtble"><input type="checkbox"
+                                onchange="toggleRowBackground(this)" class="single_check"
+                                onclick=" singleCheck()"></td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td> 
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td> 
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td> 
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td> 
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td> 
+                        <td>-</td>
+                        <td>-</td>
+
+
+                        
+                    </tr>
+                </tbody>    
+            </table>         
+        </div>        
+    </div>                 
+</div>
+</div>
+</div>
+
+    
+        <div class="card-body m-3 note" >
+            <div class="col-md-12">
+                <h6>Notes</h6>
+                <p>
+                   <li> 1. Fields marked with * are required to enter.</li>
+                   <li> 2. In field "Reassignable, Maintained" you are only allowed to enter a value of 0 or 1 (Not allow: 0; Allow: 1).</li>
+                   <li> 3. For columns like "Category ID, Manufacturer ID, Supplier ID, Depreciation ID" please look up the ID in the settings and fill it in (Note in the Category ID field you should only get the ID of the category type is license).</li>
+                </p>
+                <hr class="fileline vendcarline linehr">
+                <p>
+                    <li>Format the excel file to "text" before uploading.</li>
+                </p>
+
+            </div>
+        </div>
+
+
+        <form action="" id="addlead2">
+        <div class="card-body">        
+        <hr class="fileline vendcarline linehr">
+        <br>
+            <div class="col-md-4">
+            <div cddlead2lass="row justify-content-between">
+                <div class=" excfnthr mt-0">
+                    <label for="" class="excfllbl mb-1"><span class="aster">* </span> Choose excel File</label>
+                    <div class="input-group d-flex flex-nowrap">
+                        <input type="file" name="import" class="chooseexcfle">
+                    </div>
+                </div>
+           </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 mt-3">
+            <button type="submit" class="impbtn-default m-0" form="addlead2"><i class="fa-solid fa-arrow-down-wide-short"></i> IMPORT</button>
+</div>
+        </div>
+        </div>
+        </div>
+        </div>
+    </form>
+
+
+    <div class="modal fade" id="modal_md" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header hdrbg">
+                    <button type="button" class="btn-close closebtn" data-bs-dismiss="modal"></button>
+                    <h5 class="fnt_head mt-2">
+
+                        <b class="modal-title"></b>
+                        <div class="vertical-line m">
+
+                            <span class="Bcgtop capsule"></span>
+                            <span class="Bcgbttm capsule"></span>
+                        </div>
+                </div>
+                <div class="modal-body mbdclr">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- modal -->
+    <script>
+        function showModal(url, title) {
+            $('#modal_md').on('shown.bs.modal', function () {
+                $('.selectpicker').selectpicker('refresh');
+            });
+            $('#modal_md').modal('show', { backdrop: 'true' });
+            $.ajax({
+                url: url,
+                success: function (response) {
+                    $('#modal_md .modal-title').html(title);
+                    $('#modal_md .modal-body').html(response);
+                }
+            });
+        }
+    </script>
+    <script>
+        function openTab(evt, tabName)
+        {
+            // Declare all variables
+            var i, tabcontent, tablinks;
+
+            // Get all elements with class="tabcontent" and hide them
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++)
+            {
+                tabcontent[i].style.display = "none";
+            }
+
+            // Get all elements with class="tablinks" and remove the class "active"
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++)
+            {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+
+            // Show the current tab, and add an "active" class to the button that opened the tab
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+        var carousel = document.getElementById("carouselExampleIndicators");
+
+        carousel.addEventListener("slid.bs.carousel", function (event)
+        {
+            var activeSlideIndex = event.to;
+            if (activeSlideIndex === 0)
+            {
+
+                openTab(view.html, 'view');
+
+            }
+            else if (activeSlideIndex === 1)
+            {
+
+                openTab(seat.html, 'seat');
+
+            }
+            else if (activeSlideIndex === 2)
+            {
+
+                openTab(history.html, 'history');
+
+            }
+            else if (activeSlideIndex === 2)
+            {
+
+                openTab(files.html, 'files');
+
+            }
+        });
+
+
+
+    </script>    
+    
+       <!-- DATATABLE -->
+
+       <script>
+        $(document).ready(function ()
+        {
+            var table = $('.example').DataTable({
+              
+                rowReorder: {
+                    selector: 'td:nth-child(2)'
+                },
+                language: { lengthMenu: '_MENU_', search: '', searchPlaceholder: " Search for order ID, customer, order status or something..." },
+                responsive: true,
+                dom: 'Blfrtip',
+  
+                buttons: [
+                    {
+                    
+                    },
+  
+                    {
+                        text: '<i class="fa-solid fa-arrow-rotate-right p-1" style="font-size:.9rem"></i>'
+                    },
+                    {
+                      text: '<button type="button" onclick="showModal(\'manipulation.html\', \'Manipulation\')" style="font-size:0.9rem; font-weight:400; border:none;padding:0;background-color: inherit;"><i class="fas fa-cog text-muted"></i>  MANIPULATION</button>', 
+                    },
+                    {
+                        text: '<i class="fa-solid fa-arrow-right-from-bracket"></i> EXPORT',
+                        extend: 'collection',
+                        buttons: [
+                            // '<span class="fexport"><i class="fa-regular fa-file-excel icn me-2"></i> EXCEL</span>', '<span class="fexport"><i class="fa-regular fa-file-lines icn me-2"></i> CSV</span>', '<span class="fexport"><i class="fa-regular fa-file-pdf icn me-2"></i> PDF</span>', '<span class="fexport"><i class="fa-solid fa-print me-2 icn"></i> PRINT</span>'
+                            {},
+                            {
+                                text: '<i class="fa-regular fa-file-excel icn me-2 excel-icon"></i> Excel',
+                                extend: 'excel',
+  
+                            },
+                            {
+                                text: '<i class="fa-regular fa-file-lines icn me-2 csv-icon"></i> CSV',
+                                extend: 'csv',
+                            },
+                            {
+                                text: '<i class="fa-regular fa-file-pdf icn me-2 pdf-icon"></i> PDF',
+                                extend: 'pdf'
+                            },
+                            {
+                                text: '<i class="fa-solid fa-print me-2 icn print-icon"></i> PRINT',
+                                extend: 'print'
+                            },
+                        ],
+                        className: 'px-3'
+  
+                    }
+  
+                ],
+  
+  
+            });
+  
+        });
+        function checkAll()
+        {
+            checkbox = document.getElementById("all_check");
+            if (checkbox.checked == true)
+            {
+                $('.single_check').prop("checked", true);
+                $('.bulk_send').show(1000);
+            } else
+            {
+                $('.single_check').prop("checked", false);
+                $('.bulk_send').hide(1000);
+            }
+        }
+        function singleCheck(id)
+        {
+            checkbox = document.getElementById("check_" + id);
+            boxes = document.getElementsByClassName("single_check");
+  
+  
+            if (checkbox.checked == true)
+            {
+                $('.bulk_send').show(1000);
+            } else
+            {
+                count = 0;
+                for (let i = 0; i < boxes.length; i++)
+                {
+                    if (boxes[i].checked == true)
+                    {
+                        count += 1;
+                    }
+                }
+                if (count == 0)
+                {
+                    $('.bulk_send').hide(1000);
+                    $('#all_check').prop("checked", false);
+                } else
+                {
+                    $('.bulk_send').show();
+                }
+            }
+        }
+  
+        $(document).ready(function ()
+        {
+            const single_checks = document.querySelectorAll('.single_check');
+            const rows = document.querySelectorAll('table.dataTable tbody tr');
+            single_checks.forEach((singleCheck) =>
+            {
+                singleCheck.addEventListener('click', (e) =>
+                {
+                    e.stopPropagation();
+                    singleCheck.checked = false;
+                })
+                singleCheck.addEventListener('dblclick', (e) =>
+                {
+                    e.stopPropagation();
+                    singleCheck.checked = true;
+  
+                })
+            })
+            rows.forEach((row) =>
+            {
+  
+                row.addEventListener('dblclick', () =>
+                {
+                    if (row.firstElementChild.children[0].checked == false)
+                    {
+                        row.firstElementChild.children[0].checked = true
+                    } else
+                    {
+                        row.firstElementChild.children[0].checked = false
+  
+                    }
+                })
+            })
+  
+        })
+  
+  
+    </script>
+  
+    <script>
+        new DataTable('.example', {
+            columnDefs: [
+                {
+                    orderable: false,
+                    className: 'select-checkbox',
+                    targets: 0
+                }
+            ],
+            select: {
+                style: 'os',
+                selector: 'td:first-child'
+            },
+            order: [[1, 'asc']]
+        });
+    </script>
+    <script>
+        function toggleRowBackground(checkbox)
+        {
+            var row = checkbox.closest('tr');
+            row.classList.toggle('selected');
+        }
+    </script>
+<!-- download -->
+
+<script>
+    document.getElementById('downloadBtn').addEventListener('click', function () {
+        var wb = XLSX.utils.table_to_book(document.getElementById('datatable'), { sheet: "Sheet1" });
+        XLSX.writeFile(wb, 'table_data.xlsx');
+    });
+</script>
+
+
+
+<!-- upload -->
+
+<script>
+    $(document).ready(function() {
+      $("#addlead2")
+        .formValidation({
+          framework: "bootstrap",
+          fields: {
+            // city: {
+            //     validators: {
+            //         notEmpty: {
+            //             message: 'This field is required'
+            //         }
+            //     }
+            // },
+            // state: {
+            //     validators: {
+            //         notEmpty: {
+            //             message: 'This field is required'
+            //         }
+            //     }
+            // },
+            import: {
+              validators: {
+                notEmpty: {
+                  message: "Choose excel file",
+                },
+              },
+            },
+            category: {
+              validators: {
+                notEmpty: {
+                  message: "Select Category Name",
+                },
+              },
+            },
+            manufacture: {
+              validators: {
+                notEmpty: {
+                  message: "Select Manufacture Name",
+                },
+              },
+            },
+            seat: {
+              validators: {
+                notEmpty: {
+                  message: "Enter Seat number",
+                },
+              },
+            },
+          },
+        })
+        .on("success.form.fv", function(e) {
+          e.preventDefault();
+  
+          var form = document.querySelector("#addlead2");
+          var dataForm = new FormData(form);
+  
+          $.ajax({
+            type: "POST",
+            url: "<?= base_url() ?>/home/saveWarehouse",
+            data: dataForm,
+            cache: false,
+            contentType: false,
+            processData: false,
+            dataType: "json",
+            success: function(result) {
+              console.log(result);
+              toastr.success("Data saved successfully", "Success");
+              $("#modal_md").modal("hide");
+              setTimeout(function() {
+                location.reload();
+              }, 800);
+            },
+            error: function(error) {
+              console.error(error);
+              toastr.error("An error occurred", "Error");
+            },
+          });
+        });
+    });
+  </script>
+
+
+
+
+</body>
+
+</html>

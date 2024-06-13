@@ -1,0 +1,302 @@
+body {
+  overflow-x: hidden !important;
+}
+
+.capsule {
+  width: 0.2rem !important;
+  height: 50% !important;
+  position: absolute !important;
+  border-bottom-left-radius: 3px !important;
+  border-bottom-right-radius: 3px !important;
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td,
+.table-striped>tbody>tr:nth-child(odd)>th {
+  background-color: #fff !important;
+}
+
+.applyBtn {
+  color: #fff !important;
+  background-color: #405189 !important;
+  border-color: #405189 !important;
+}
+
+.applyBtn:hover {
+  color: #fff !important;
+  background-color: #475996 !important;
+  border-color: #405189 !important;
+}
+
+.daterangepicker .left {
+  position: absolute;
+  left: 174px;
+  /* top: 453%; */
+  transform: translateY(-40%);
+}
+
+.daterangepicker .right {
+  width: fit-content;
+  position: absolute;
+  left: 494px;
+  /* top: 453%; */
+  transform: translateY(-40%);
+}
+
+@media (max-width: 563px) {
+  .daterangepicker .calendar {
+    max-width: 273px !important;
+  }
+}
+
+.daterangepicker .calendar td {
+  white-space: nowrap !important;
+  text-align: center !important;
+  min-width: 32px !important;
+  /* background-color: #f3f6f9 !important; */
+  /* border: 1px solid rgb(200, 197, 197) !important; */
+  border: none !important;
+  color: #000 !important;
+}
+
+.daterangepicker .calendar td:hover {
+  color: black !important;
+  background-color: rgb(209, 206, 206) !important;
+}
+
+.daterangepicker td.active,
+.daterangepicker td.active:hover {
+  background-color: #405189 !important;
+  color: white !important;
+}
+
+input[name="daterange"] {
+  padding: 0.45rem 0.9rem !important;
+  border-radius: 0.25rem !important;
+  margin-left: 0.9rem !important;
+  margin-bottom: 0.333em !important;
+  border: 1px solid #dee2e6 !important;
+  color: #7e7e7e !important;
+  height: 37.6px !important;
+}
+
+input[name="daterange"]:focus {
+  padding: 0.45rem 0.9rem !important;
+  border-radius: 0.25rem !important;
+  margin-left: 0.9rem !important;
+  margin-bottom: 0.333em !important;
+  border: 1px solid #405189 !important;
+  color: #7e7e7e !important;
+  height: 37.6px !important;
+}
+
+.daterangepicker .calendar-table {
+  border: 1px solid #fff !important;
+  padding: 4px !important;
+  border-radius: 4px !important;
+  background-color: #405189 !important;
+  color: white;
+  visibility: visible !important;
+}
+
+.daterangepicker td {
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 0px !important;
+  border: 0px solid transparent;
+  white-space: nowrap;
+  cursor: pointer;
+  color: black;
+}
+
+.table-condensed .next {
+  border: none !important;
+}
+
+.daterangepicker .calendar {
+  /* display: none !important; */
+  max-width: 325px !important;
+  margin: 4px !important;
+  background-color: #fff !important;
+  /* background-color: #f3f3f9 !important; */
+  box-shadow: 0 1px 2px rgba(56, 65, 74, 0.15) !important;
+  padding: 0.25rem !important;
+}
+
+.daterangepicker.dropdown-menu {
+  max-width: fit-content !important;
+  z-index: 3095 !important;
+  visibility: visible !important;
+}
+
+.ranges li {
+  font-size: 13px;
+  background-color: rgb(245, 245, 245);
+  border: 1px solid rgb(245, 245, 245);
+  border-radius: 4px;
+  /* color: rgb(0, 136, 204); */
+  color: #000 !important;
+  padding: 3px 12px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.ranges li:hover {
+  background-color: #405189 !important;
+  border: 1px solid #405189 !important;
+  color: #fff !important;
+}
+
+.ranges li.active {
+  background-color: #405189 !important;
+  border: 1px solid #405189 !important;
+  color: #fff !important;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+  margin-top: 2px !important;
+}
+
+.samplebttn {
+  background-color: #0ab399 !important;
+  width: 160px !important;
+}
+
+.expobttn {
+  background-color: #a8a7a7 !important;
+}
+
+.impobttn {
+  background-color: #e2b971 !important;
+}
+
+#rightSliderToggle {
+  height: 10vh !important;
+  width: 0.8rem !important;
+  background-color: #a7a7a7 !important;
+  position: fixed !important;
+  right: 0 !important;
+  cursor: pointer !important;
+}
+
+#sidebarRight {
+  height: 30vh !important;
+  width: 10vw !important;
+  position: absolute !important;
+  top: 13vh !important;
+  right: -100vw !important;
+  transition: right 0.5s ease-in-out !important;
+  background-color: #405189 !important;
+  padding: 20px !important;
+  color: white !important;
+  right: -100vw !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  z-index: 1000 !important;
+}
+
+.close-svg {
+  height: 20px !important;
+  cursor: pointer !important;
+}
+
+/* Input focus color */
+
+div.dataTables_wrapper div.dataTables_filter input:focus {
+  border: 1px solid #405189 !important;
+}
+
+table tbody tr td:nth-child(6) {
+  padding-bottom: 1em !important;
+}
+
+table tbody tr td:nth-child(6) .tags {
+  max-width: 150px !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+  color: white !important;
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td,
+.table-striped>tbody>tr:nth-child(odd)>th {
+  background-color: #fff !important;
+}
+
+.fnt_head {
+  position: relative !important;
+  font-size: 0.9rem !important;
+}
+
+.fnt_head b {
+  margin-left: 10px !important;
+}
+
+.Bcgtop {
+  top: 0 !important;
+  background-color: #beaaea !important;
+}
+
+.Bcgbttm {
+  bottom: 0 !important;
+  background-color: #8ed7ed !important;
+}
+
+.mgbttn {
+  margin-top: 15px !important;
+}
+
+input:focus {
+  border: 1px solid #405189 !important;
+}
+
+.select2-container--default .select2-selection--multiple {
+  border: 1px solid #ced4da !important;
+}
+
+@media (max-width: 563px) {
+  .daterangepicker .calendar {
+    max-width: 273px !important;
+  }
+
+  .calendar {
+    font-size: 0.8rem !important;
+  }
+
+  .btn-default {
+    width: 25% !important;
+    margin-left: 10px !important;
+  }
+}
+
+.closebtn {
+  z-index: 100;
+}
+
+input:focus {
+  border: 1px solid #405189 !important;
+}
+
+.linehr {
+  margin: -16px 2px !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .linehr {
+
+    margin: 1px !important;
+  }
+}
+
+/* dropdown option color and height */
+.bootstrap-select .disabled {
+  color: #1d0868c2;
+  background-color: #f0f0f050;
+  height: 30px;
+}
+
+.bootstrap-select .dropdown-menu li a {
+  height: 30px;
+}

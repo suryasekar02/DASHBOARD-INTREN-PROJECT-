@@ -1,0 +1,110 @@
+li {
+  list-style: none;
+}
+
+ul button {
+  padding-left: 2px;
+}
+
+ul li a {
+  color: black;
+}
+/*
+a:hover {
+  border-bottom: none;
+}*/
+
+/* .SwitchBTN{
+    display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.2rem 0.452rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  background-color: #84c529;
+  color: white;
+} */
+
+/* .SwitchBTN:hover {
+    background-color: #74b31b;
+  } */
+
+  .tablinks:hover {
+    border-bottom: 2px solid #02a9f4 !important;
+    color: #02a9f4!important;
+  }
+.toggle-control {
+  display: flex;
+  position: relative;
+  padding-left: 100px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.toggle-control input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.toggle-control input:checked~.control {
+  background-color: #84c529;
+}
+
+.toggle-control input:checked~.control:after {
+  left: 55px;
+}
+
+.toggle-control .control {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 24px;
+  width: 76px;
+  border-radius: 25px;
+  background-color: #ccc;
+  transition: background-color 0.15s ease-in;
+}
+
+.toggle-control .control:after {
+  content: "";
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  width: 18px;
+  height: 18px;
+  border-radius: 25px;
+  background: white;
+  transition: left 0.15s ease-in;
+}
+
+
+  /*.modal-header .btn-close:hover{
+  background-color: rgb(225, 222, 222);
+  color: rgb(0, 0, 0);
+  border-radius: 50%;
+  border: none;
+  size: 20px;
+ box-sizing: content-box;
+  width: 1em;
+  height: 1em;
+  margin-top: -0.75rem !important;
+  padding: none !important;
+  color: #000;
+  background: transparent;
+  border: 0;
+  border-radius: 0.25rem;
+  opacity: .5; 
+  
+}*/

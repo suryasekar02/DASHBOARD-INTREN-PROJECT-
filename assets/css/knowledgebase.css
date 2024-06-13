@@ -1,0 +1,372 @@
+.text-a {
+    text-decoration: none;
+}
+
+.text-a {
+    text-decoration: none;
+}
+
+.button-head {
+    color: white;
+    text-decoration: none;
+
+}
+
+.button-head:hover {
+    color: white;
+}
+
+.text-button {
+    font-weight: 900;
+    color: black;
+}
+
+.bt {
+    background: white !important;
+    color: black !important;
+    border-radius: 5px !important;
+    border: 1px solid rgb(216, 214, 214) !important;
+
+}
+
+.btnc {
+    background-color: gray;
+}
+
+.ml {
+    margin-left: 0px !important;
+}
+
+.pa {
+    padding: 8px !important;
+}
+
+.time {
+    color: black !important;
+}
+
+ 
+
+.fbtn {
+    background-color: #f8f9fa;
+    color: black !important;
+    margin-right: 10px;
+}
+
+.mbar {
+    float: none;
+
+}
+
+.ullu .xyz {
+    position: absolute;
+    left: 66.8rem;
+    top: 1.8rem;
+    padding: 10px;
+
+
+
+}
+
+@media(max-width:768px) {
+    .ullu .xyz {
+        position: absolute;
+        left: 15.3rem;
+        top: 1.8rem;
+        padding: 10px
+    }
+}
+
+.savebtndiv {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 60px;
+
+    background-color: white;
+
+}
+
+.sbtn {
+    margin-left: 5px !important;
+}
+
+.ap {
+
+    margin-left: 25px !important;
+}
+
+.colorpicker {
+    padding-left: 92%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    height: 40px;
+}
+
+.modal-header {
+    position: relative;
+    /* cursor: move; */
+}
+
+.closebtn {
+    padding-top: 0px !important;
+    position: absolute;
+    top: 22px;
+    right: 18px;
+}
+
+.new2 {
+    margin-left: 8px;
+    top: 3px;
+    margin-right: 3px;
+    padding: 7px;
+}
+
+.text-a {
+    text-decoration: none;
+}
+
+.button-head {
+    color: white;
+    text-decoration: none;
+
+}
+
+.button-head:hover {
+    color: white;
+}
+
+.text-button {
+    font-weight: 900;
+    color: black;
+}
+
+.bt {
+    background: white;
+    color: black;
+    border-radius: 5px;
+
+}
+
+.xyz {
+    position: absolute !important;
+    top: 139px !important;
+    right: 30px;
+    padding: 3px 6px 3px;
+    margin: 50px;
+    border: none;
+    border-left: 1px solid rgb(205, 205, 205);
+    height: 35px;
+
+}
+
+/* group */
+
+.text-a {
+    text-decoration: none;
+}
+
+.button-head {
+    color: white;
+    text-decoration: none;
+
+}
+
+.button-head:hover {
+    color: white;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 65px;
+    height: 25px;
+    /* background-color: #ccc; */
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 19px;
+    width: 19px;
+    left: 0px;
+    bottom: 3px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.colorpicker {
+    padding-left: 92%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    height: 40px;
+}
+
+
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+
+
+/* Rounded sliders */
+
+
+
+
+.bt {
+    background: white;
+    color: black;
+    border-radius: 5px;
+
+}
+
+.pa {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.ml {
+    margin-left: 0px;
+
+}
+
+.pall {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+
+
+}
+
+@media (max-width: 768px) {
+    .new {
+        width: 20% !important;
+    }
+}
+
+.picon {
+    background-color: #f8f9fa !important;
+}
+
+.modal-header {
+    position: relative;
+}
+
+.text-note {
+    font-size: x-small;
+    color: gray;
+}
+
+.graybutton {
+    background-color: #f1f5f7;
+    border: none;
+    font-size: 19px;
+    width: 40px;
+    height: 32px;
+    border-radius: 5px;
+    margin-left: 6px;
+}
+
+.graybutton2 {
+    background-color: #f1f5f7;
+    border: none;
+    font-size: 19px;
+    width: 40px;
+    height: 35px;
+    border-radius: 5px;
+    top: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+    float: right;
+
+}
+
+@media (max-width: 768px) {
+    .graybutton2 {
+        width: 100%;
+        margin-top: 18px;
+        margin-left: 10px !important;
+        
+       
+
+    }
+}
+
+@media (max-width: 768px) {
+    .graybutton {
+        display: none;
+    }
+}
+
+
+
+.text-note {
+    font-size: xx-small;
+    color: gray;
+}
+
+/* edit person */
+
+
+.text-note {
+    font-size: xx-small;
+    color: gray;
+}
+
+.pl {
+    padding-left: 20px !important;
+   
+}
+.textareaborder
+{
+    border: 1px solid #919191 !important;
+}
+
+.mlc {
+    margin-left: -2px;
+
+}
+
+.colorpicker {
+    padding-left: 92%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    height: 40px;
+}
+
+.modal-header {
+    position: relative;
+}
+
+
+.newartialbtn {
+    background-color: #84c529;
+    color: #fff;
+    box-shadow: none !important;
+}
+
+
+.NavDiv {
+    display: flex;
+}
+
+.colorlabels{
+   height: 38px;
+   width: 30px !important;
+   border: none !important;
+   
+}
+.knowledgetbl{
+    margin-left: 6px;
+}

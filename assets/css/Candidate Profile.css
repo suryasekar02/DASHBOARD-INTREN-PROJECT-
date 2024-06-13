@@ -1,0 +1,90 @@
+.generalde{
+	border:1px solid #337ab7;
+    border-color: #337ab7;
+    border-radius: 5px;
+    
+}
+.gena{
+    
+border-top-color: rgb(51, 122, 183);
+    border-right-color: rgb(51, 122, 183);
+    border-bottom-color: rgb(51, 122, 183);
+    border-left-color: rgb(51, 122, 183);
+
+}
+
+.contactin{
+    border:1px solid  #bce8f1;
+    border-color: #bce8f1;
+}
+.conta{
+}
+.senior{
+	border:1px solid #d6e9c6;
+    border-color: #d6e9c6;
+    border-radius: 5px;
+margin: 1rem!important;
+}
+.sen{
+	margin-top: 0px !important;
+	margin-right: 0px !important;
+    margin-left: 0px !important;
+padding-right:0px !important ;
+padding-left: 0px!important;
+padding-bottom: 0px !important;
+padding-top: 0px !important;
+
+}
+.liter{
+    border-color: #ddd;
+    border:1px solid #ddd;
+    border-color: #ddd;
+    border-radius: 5px;
+margin: 1rem!important;
+}
+.litt{
+	margin-top: 0px !important;
+	margin-right: 0px !important;
+    margin-left: 0px !important;
+padding-right:0px !important ;
+padding-left: 0px!important;
+padding-bottom: 0px !important;
+padding-top: 0px !important;
+
+}
+.refer{
+    border-color: #faebcc;
+    border:1px solid #faebcc;
+    border-color: #faebcc;
+    border-radius: 5px;
+    margin: 1rem!important;
+
+}
+.refrr{
+	margin-top: 0px !important;
+	margin-right: 0px !important;
+    margin-left: 0px !important;
+padding-right:0px !important ;
+padding-left: 0px!important;
+padding-bottom: 0px !important;
+padding-top: 0px !important;
+}
+.campa{
+	width:100% !important;
+}
+.iconn{
+	-webkit-text-stroke:2px;
+}
+@media(max-width:768px){
+	.jobb{
+		margin-left: 0px !important;
+	}
+}
+.buon{
+    margin-left: 5px !important;
+}
+.wet{
+	margin-bottom: 0px !important;
+	margin-top: 0px !important;
+padding-top: 9px !important;
+}

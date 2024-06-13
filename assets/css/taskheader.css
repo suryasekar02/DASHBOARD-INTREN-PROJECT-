@@ -1,0 +1,287 @@
+:root {
+  --primary-font: 'Roboto', sans-serif;
+  --newtaskbtn-color: #02A9F0;
+  --taskoverviewbtn-color: #83C92A;
+  --order-color: #26BAD8;
+}
+
+/*header1*/
+@media (max-width: 768px) {
+  .new {
+
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .switch {
+
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .view {
+
+    margin-left: 25px !important;
+    width: 90%;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .filter {
+    width: 90%;
+    margin-left: 25px;
+  }
+}
+
+@media(max-width: 768px) {
+  .hidden-xs {
+    display: none !important;
+  }
+}
+
+.new {
+  border: none;
+  background-color: var(--newtaskbtn-color);
+  border-radius: 4px;
+  margin-left: 25px;
+  margin-top: 15px;
+  padding: 4px 20px 4px;
+  font-size: 16px;
+  font-family: var(--primary-font);
+  color: whitesmoke
+}
+
+.switchbtn {
+  color: #666F78
+}
+
+.new:hover {
+  background-color: #0584C4;
+}
+
+.switch {
+  border: none;
+  border-radius: 4px;
+  margin-left: 20px;
+  margin-top: 15px;
+  padding: 4px 20px 4px;
+  font-size: 16px;
+  font-family: var(--primary-font);
+
+}
+
+.switch:hover {
+  background-color: #CFCFD1;
+}
+
+.containerbtn {
+  text-align: end;
+}
+
+.view {
+  border: none;
+  background-color: var(--taskoverviewbtn-color);
+  border-radius: 4px;
+  margin-right: 30px;
+  margin-top: 15px;
+  padding: 4px 20px 4px;
+  font-size: 16px;
+  font-family: var(--primary-font);
+  float: none !important;
+  color: whitesmoke
+}
+
+.view:hover {
+  background-color: #6FA326;
+}
+
+/* .dropdown-toggle::after{
+  content: none !important;
+} */
+
+
+/*header2*/
+
+.searchinp {
+  width: 90%;
+  border: 1px solid #bfcbd9;
+  box-shadow: none;
+  border-radius: 4px;
+  margin-top: 15px;
+  margin-right: 30px;
+  padding: 5px;
+  color: #666F78
+}
+
+@media(max-width: 768px) {
+  .searchinp {
+    margin-left: 25px !important;
+  }
+}
+
+/*header3*/
+@media(max-width:768px) {
+  .btn-default {
+    width: 90%;
+    margin-left: 25px;
+
+  }
+}
+
+@media (max-width: 768px) {
+  .hdrdropdown {
+    width: 90%;
+    margin-left: 25px;
+  }
+}
+
+.align {
+  border: 1px solid #e6e9eb;
+  box-shadow: none !important;
+  border-radius: 4px;
+  margin-left: 25px;
+  padding: 5px 8px 5px;
+  margin-top: 8px;
+}
+
+.align:hover {
+  background-color: #CFCFD1;
+}
+
+.hdrdropdown {
+  box-shadow: none !important;
+  border: 1px;
+  padding: 3px 15px 3px;
+  border-radius: 4px;
+  margin-right: 30px;
+  margin-top: 15px;
+  background-color: #F2F2F2;
+}
+
+.hdrdropdown:hover {
+  background-color: #CFCFD1;
+}
+
+
+.width300 {
+  width: 300px;
+}
+
+.dropdown-menu>li:hover {
+  outline: 0 !important;
+  /*  background: #e4e8f1;*/
+
+}
+
+/* .dropdown-menu>li>a:hover{
+  color: #000!important;
+ } */
+.txt {
+  color: Black;
+  text-decoration: none !important;
+}
+
+
+
+.hdrdropdown::after {
+  content: none;
+}
+
+.dropdown-menu .divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+
+
+.filter-active {
+  background-color: #03a9f4;
+}
+
+
+.prog {
+  color: whitesmoke !important;
+  text-decoration: none !important;
+}
+
+
+
+
+/**********************header4********************/
+@media (max-width: 768px) {
+
+  .karpasnew,
+  .projectinvoice {
+    margin-right: 13px;
+    width: 90%;
+  }
+}
+
+@media(max-width: 768px) {
+  .moredropdown {
+
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .karpashdr {
+    margin-left: 38px !important;
+    width: 85% !important;
+  }
+}
+
+.karpashdr {
+
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.karpasnew {
+  border: none;
+  background-color: var(--newtaskbtn-color);
+  border-radius: 4px;
+  margin-left: 20px;
+  margin-top: 15px;
+  padding: 4px 20px 4px;
+  font-size: 16px;
+  font-family: var(--primary-font);
+  color: whitesmoke;
+
+}
+
+.projectinvoice {
+  border: none;
+  background-color: var(--newtaskbtn-color);
+  border-radius: 4px;
+  margin-left: 10px;
+  margin-top: 15px;
+  padding: 4px 20px 4px;
+  font-size: 16px;
+  font-family: var(--primary-font);
+  color: whitesmoke;
+
+}
+
+
+.moredropdown {
+  box-shadow: none !important;
+  border: 1px;
+  padding: 4px 20px 4px;
+  border-radius: 4px;
+  margin: 15px;
+  font-size: 16px;
+  background-color: #F2F2F2;
+}
+
+.moredropdown:hover {
+  background-color: #CFCFD1;
+}
+
+.moredropdown::after {
+  content: visible;
+}

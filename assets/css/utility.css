@@ -1,0 +1,183 @@
+/**bulkpdf**/
+
+.bulkbody {
+    background-color: #e6e9eb;
+}
+
+.bulkpdfhdr {
+    padding: 19px 15px 0px 15px !important;
+}
+
+.bulkpdfbdy {
+    padding: 0px 26px 18px 25px;
+}
+
+.bulkml {
+    margin-left: 2px !important;
+    margin-right: 1px !important;
+}
+
+.pdfmarltrt{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+/**databasebackup**/
+
+.txtnte {
+    font-weight: 500;
+    color: #03a9f4;
+    font-size: 13px;
+}
+
+.databasebtn {
+    border-radius: 4px;
+    margin-left: 20px;
+    margin-top: 15px;
+    padding: 4px 20px 4px;
+    font-size: 14px;
+    background-color: #2d3d452b;
+    font-family: var(--primary-font);
+    border: none;
+    border: 1px solid #e6e9eb !important;
+    float: right;
+    margin-bottom: 18px;
+}
+
+.dataradio {
+    margin-top: 6px;
+    margin-left: 3px;
+}
+
+.reqhdr {
+    margin-left: 3px;
+}
+
+.autobackhdr {
+    margin-left: 4px !important;
+}
+
+.backuplbl {
+    font-family: var(--primary-font);
+    margin-top: 14px;
+    margin-right: 5px;
+}
+
+
+/* autobackup modal bottom align*/
+.autobackup {
+    margin-bottom: 31px;
+}
+
+/**announcement**/
+
+.annview {
+    margin: 20px 0px;
+}
+
+.viewpadlt {
+    padding-left: 16px !important;
+    padding-right: 5px !important;
+    margin-bottom: 10px;
+}
+
+.annhdr {
+    margin: 10px 0px;
+}
+.annhdrrec {
+    margin: 10px 3px;
+}
+
+.formpanel {
+    background-color: #fff;
+    /* margin-left: 20%;
+     margin-right: 20%; */
+    margin-top: 20px;
+    box-shadow: 2px 5px 20px -5px rgba(0,0,0,0.05);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+
+}
+
+.formhead {
+    padding: 10px 0px 0px 21px;
+}
+
+.formbody {
+    padding: 0px 15px 0px 15px;
+}
+
+.blu {
+    accent-color: #5bc0de !important;
+}
+
+.inline {
+    display: inline;
+    float: right;
+}
+
+@media (max-width:770px) {
+    .formpanel {
+        background-color: #fff;
+        margin-left: 1%;
+        margin-right: 1%;
+
+
+    }
+}
+
+.announcememtdes {
+    padding-right: 8px;
+    margin-left: 5px;
+}
+
+.annoucementmb {
+    padding-top: 9px;
+    margin-bottom: 22px;
+}
+
+.chkbxann {
+    margin-left: 12px;
+}
+
+
+@media(max-width:768px) {
+    .viewannmt {
+        margin-top: -15px !important;
+    }
+}
+.welmb{
+    margin-bottom: 15px;
+}
+
+/**activitylog**/
+.dateinputt {
+    border-color: #919191 !important;
+}
+.editlink {
+
+    font-size: medium;
+}
+
+.exputility {
+    margin-left: 3px !important;
+}
+
+.clrlogbtn {
+    color: #fff;
+    background-color: #fc2d42;
+    border: none;
+    box-shadow: none !important;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-top: 17px;   
+    font-size: 14px !important;
+}
+
+.clrlogbtn:hover {
+    background-color: #fa0d25 !important;
+}
+.backuppg{
+    margin-top: 20px;
+    padding: 0px 13px;
+}

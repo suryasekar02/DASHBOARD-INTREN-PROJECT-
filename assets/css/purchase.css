@@ -1,0 +1,41 @@
+.linkd
+{
+    text-decoration: none;
+    
+}
+.inline-block {
+    display: inline-block;
+}
+.mleft5 {
+    margin-left: 5px;
+}
+.label {
+    
+    font-weight: 400;
+    padding: .3em .7em .3em;
+}
+.label-default {
+    background: 0 0;
+    border: 1px solid #d2d5dc;
+    color: #63686f;
+}
+
+.btn2{
+background-color: #f94706 ! important;
+/* Green */
+border: none;
+color: white;
+padding: 3px 8px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+/* font-size: 15px; */
+border-radius: 5px;
+}
+/*.progress-bar-success {
+    background-color: #84c529;
+}
+.progress-bar {
+    color: #fff;
+        background-color: #84c529 !important;
+}*/

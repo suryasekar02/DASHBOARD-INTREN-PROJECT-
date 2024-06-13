@@ -1,0 +1,9 @@
+.modal-header, button{
+    display: flex;
+    justify-content: end;
+}
+
+.FilUL, li, a{
+    text-decoration: none;
+
+}

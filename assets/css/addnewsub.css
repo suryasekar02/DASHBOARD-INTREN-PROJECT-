@@ -1,0 +1,24 @@
+.two-div{
+    display: flex;
+}
+
+.left-div{
+    
+    justify-content: left;
+}
+
+.right-div{
+    
+    justify-content: flex-end;
+}
+.subbody{
+    border: 2px solid #EDEDED;
+    box-shadow: whitesmoke;
+     background-color: transparent;
+}
+#wrapper{
+   
+}
+.subrouting{
+
+}

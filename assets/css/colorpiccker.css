@@ -1,0 +1,33 @@
+.colorpck{
+  padding: 6px 3px 6px 12px;
+  border: 1px solid #919191 !important;
+  border-radius: 5px;
+  width: 99% !important;
+  margin-left: 3px;
+  margin-right: 6px;
+}
+.width90{
+  width: 88%;
+}
+
+
+/* for textarea input */
+.textaria{
+  box-shadow: none;
+  outline: 0;
+  border: 1px solid #919191;
+}
+.textaria:focus{
+  outline: 0;
+  border: 1px solid #919191;
+}
+.clrbox{
+  padding:0px 8px;
+  background: none;
+}
+   @media (max-width: 500px) {
+  .clrbox{
+      
+      margin-left: -23px !important;
+  }
+}

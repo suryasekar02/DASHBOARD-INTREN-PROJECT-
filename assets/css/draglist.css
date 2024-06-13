@@ -1,0 +1,61 @@
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+} */
+/* body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #595DB8;
+} */
+.sortable-list {
+ 
+  padding: 18px 2px;
+  background: #fff;
+  border-radius: 7px;
+
+
+}
+.sortable-list .item {
+  list-style: none;
+  display: flex;
+  cursor: move;
+  background: #fff;
+  align-items: center;
+  border-radius: 5px;
+  padding: 10px 13px;
+  margin-bottom: 11px;
+  /* box-shadow: 0 2px 4px rgba(0,0,0,0.06); */
+  
+  /* justify-content: space-between; */
+}
+.item .details {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 7px 11px;
+  width:100%;
+  border-radius:5px;
+}
+
+.item i {
+  color: #474747;
+  font-size: 1.13rem;
+}
+.item.dragging {
+  opacity: 0.6;
+}
+.item.dragging :where(.details, i) {
+  opacity: 0;
+}
+.item [type='checkbox']{
+margin-right:5px;
+margin-left:3px;
+height:20px;
+width:40px;
+}

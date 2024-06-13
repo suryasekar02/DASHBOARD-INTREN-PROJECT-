@@ -1,0 +1,23 @@
+.image-square{
+    padding: 4px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    height: auto;
+  }
+  @media (max-width: 576px) {
+  .table-2{
+    margin-top:220px;
+  }
+}
+@media (max-width: 768px){
+ .table-2{
+    margin-top:800px;
+}   
+}
+
+.table-2{
+    margin-top:-220px;
+}

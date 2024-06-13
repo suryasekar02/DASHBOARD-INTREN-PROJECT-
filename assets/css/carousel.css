@@ -1,0 +1,35 @@
+.nav-tabs > li {
+  display: none;
+}
+.nav-tabs > li.active {
+  display: block;
+}
+@media (min-width: 768px) {
+  .navigation-icons {
+    display: none !important;
+  }
+  .nav-tabs > li {
+    display: block;
+  }
+  #nextIcon, #prevIcon{
+    display: none;
+  }
+}
+.custom-navbar{
+display: grid;
+grid-template-columns: 1fr 5fr 1fr;
+text-align: center;
+}
+ul a{
+margin: auto !important;
+}
+.ti-arrow-left, .ti-arrow-right{
+top: 10px;
+}
+#slideNav{
+place-self: center;
+}
+.custom-navbar span {
+display: block;
+margin: 13px;
+}

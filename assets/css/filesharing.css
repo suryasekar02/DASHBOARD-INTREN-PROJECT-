@@ -1,0 +1,147 @@
+.droppad {
+    padding-top: 2px;
+}
+
+@media screen and (max-width: 768px) {
+    .clientdivtp {
+        margin-bottom: 20px;
+
+
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .checklm {
+        margin-left: 0% !important;
+
+
+    }
+
+}
+
+
+
+
+.settingsdrop {
+    width: 680px !important;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+
+    .settingsdrop {
+        width: 680px !important;
+    }
+
+}
+@media screen and (max-width: 768px) {
+
+    .settingsdrop {
+        width: 330px !important;
+    }
+
+}
+
+/* manage shraing */
+
+.linklogoclr{
+    color: #2892c4 !important;
+    background-color: #fff !important;
+}
+.linklogoclr:hover{
+    color: #0f82b8 !important;
+}
+.sharebox{
+    border: 1px solid #919191 !important;
+    margin-top: 5px;   
+    border-top-right-radius : 4px !important;
+    border-bottom-right-radius: 4px !important;
+    height: 36px !important;
+}
+.clonebox{
+    border: 1px solid #919191 !important;
+    margin-top: 5px;  
+    height: 36px !important;
+
+}
+.eyebtnbox{
+    color: #2892c4 !important;
+    background-color: none !important;
+}
+.eyebtnbox :hover{
+    color: #0f82b8 !important;
+}
+.editfilemdl{
+    margin-left: 2px !important;
+}
+.staffline{
+    padding-left: 12px !important;
+}
+.linkfile{
+    margin-left: -1px !important;
+}
+.linklbl{
+    margin-top: 8px !important;
+    margin-bottom: 3px;
+    font-size: 14px;
+}
+.fileline{
+    border:thin;
+    background-color: #919191 !important;
+}
+.mailbdy{
+    margin-top: -38px !important;
+    border: none !important;
+}
+.mailhdr{
+    padding-left: 0px !important;
+}
+.emailbox{
+    padding: 10px 0px;
+}
+.emailfooter{
+    margin-bottom: -36px;
+}
+.reporthdr{
+    margin-top: 7px;
+    margin-bottom: 4px !important;
+    cursor: pointer;
+}
+.shareperm{
+    margin-top: 17px;
+}
+.pertitle{
+    font-weight: 545 !important;
+}
+.clientdivtp{
+    margin-top: 4px !important;
+}
+.confighdr{
+    margin-left: 13px !important;
+}
+.report_nav_tabs.hover {
+    color: #02a9f4;
+}
+.report_nav_tabs.active {
+    color: #02a9f4 !important;
+}
+.chartsfile{
+    border-bottom: 2px solid #eee;
+    border-right: 2px solid #eee;
+}
+.chartbdr{
+    border-right: 2px solid #eee;
+}
+.add_on{
+    margin-top: 5px !important;
+    background-color: inherit;
+    border:1px solid #b5b2b2d4;
+    font-size: 14px !important;
+    padding: 6.5px 12px !important;
+    height: 36px;
+}

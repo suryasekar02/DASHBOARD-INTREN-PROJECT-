@@ -1,0 +1,39 @@
+.label-primary{
+    padding: .3em .7em .3em;
+}
+
+.label-success
+{
+    background: 0 0;
+    border: 1px solid #84c529;
+    color: #84c529;
+    padding: .3em .7em .3em;
+   }
+.label-primary
+{
+    background: 0 0;
+    border: 1px solid #03a9f4;
+    color: #03a9f4;
+}
+.label-warning
+{
+    background: 0 0;
+    border: 1px solid coral;
+    color: coral ;
+    padding: .3em .7em .3em;
+}
+.label-black
+{
+    
+    color: #2d2d2d;
+    border: 1px solid #bfcbd9;
+    background: #fff;
+    padding: .3em .7em .3em;
+}
+.label-danger
+{
+    background: 0 0;
+    border: 1px solid #fc2d42;;
+    color:#fc2d42; ;
+    padding: .3em .7em .3em;
+}
