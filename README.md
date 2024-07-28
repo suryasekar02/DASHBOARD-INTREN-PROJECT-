@@ -18,12 +18,6 @@ This project is a sophisticated and dynamic dashboard application developed duri
 - User authentication
 - Responsive design
 
-## Installation
-1. Clone the repository: `git clone https://github.com/suryasekar02/`
-2. Navigate to the project directory: `cd dashboard-project`
-3. Install dependencies: `npm install`
-4. Start the development server: `npm start`
-
 ## Usage
 1. Register or log in to access the dashboard.
 2. Explore the interactive charts and widgets.
