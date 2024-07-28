@@ -1,11 +1,13 @@
 # Dashboard Project
 
 ## Overview
-This project is a sophisticated and dynamic dashboard application developed during my internship, showcasing my skills in front-end development and data visualization.
+This project is a sophisticated and dynamic dashboard application developed during my internship, showcasing my front-end development and data visualization skills.
 
 ## Technologies Used
-- React.js
-- Tailwind CSS
+- html
+- CSS
+- js
+- bootstrap
 - Chart.js
 - D3.js
 - Redux
@@ -23,7 +25,7 @@ This project is a sophisticated and dynamic dashboard application developed duri
 4. Start the development server: `npm start`
 
 ## Usage
-1. Register or login to access the dashboard.
+1. Register or log in to access the dashboard.
 2. Explore the interactive charts and widgets.
 3. Customize the dashboard layout and settings as needed.
 
